@@ -1,1 +1,1 @@
-# BERT_Knowledge-Distillation
+# Task-specific knowledge distillation for BERT
