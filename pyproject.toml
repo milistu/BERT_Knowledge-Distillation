@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "bert-knowledge-distillation"
+version = "0.1.0"
+description = ""
+authors = ["milistu <studen.m98@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+torch = "^2.6.0"
+transformers = "^4.48.2"
+datasets = "^3.2.0"
+tensorboard = "^2.18.0"
+jupyter = "^1.1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
