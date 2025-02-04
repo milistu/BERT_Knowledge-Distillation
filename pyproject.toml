@@ -8,10 +8,12 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.10"
 torch = "^2.6.0"
-transformers = "^4.48.2"
+transformers = {extras = ["torch"], version = "^4.48.2"}
 datasets = "^3.2.0"
 tensorboard = "^2.18.0"
 jupyter = "^1.1.1"
+evaluate = "^0.4.3"
+scikit-learn = "^1.6.1"
 
 
 [build-system]
